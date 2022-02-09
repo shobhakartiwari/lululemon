@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  CoreDataLearnings
+//  LululemonTest
 //
-//  Created by Alok Upadhyay on 13/12/21.
+//  Created by 李金龙 on 14/11/1400 AP.
 //
 
 import UIKit

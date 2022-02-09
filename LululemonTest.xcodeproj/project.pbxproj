@@ -7,17 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		014990C427ACC4C0005A219A /* addViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014990C327ACC4C0005A219A /* addViewController.swift */; };
+		014990C627ACCF7F005A219A /* item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014990C527ACCF7F005A219A /* item.swift */; };
 		131895EF27678B9C00775538 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131895EE27678B9C00775538 /* AppDelegate.swift */; };
 		131895F127678B9C00775538 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131895F027678B9C00775538 /* SceneDelegate.swift */; };
 		131895F327678B9C00775538 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131895F227678B9C00775538 /* ViewController.swift */; };
 		131895F627678B9C00775538 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131895F427678B9C00775538 /* Main.storyboard */; };
-		131895F927678B9C00775538 /* CoreDataLearnings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 131895F727678B9C00775538 /* CoreDataLearnings.xcdatamodeld */; };
+		131895F927678B9C00775538 /* LululemonTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 131895F727678B9C00775538 /* LululemonTest.xcdatamodeld */; };
 		131895FB27678B9D00775538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 131895FA27678B9D00775538 /* Assets.xcassets */; };
 		131895FE27678B9D00775538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 131895FC27678B9D00775538 /* LaunchScreen.storyboard */; };
+		BE8C32D927A44998002E8536 /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C32D827A44997002E8536 /* AddViewModel.swift */; };
+		BE8C32DC27A44A9D002E8536 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C32DB27A44A9D002E8536 /* APIHandler.swift */; };
+		BE8C32DF27A4511C002E8536 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C32DE27A4511C002E8536 /* ListModel.swift */; };
+		BE8C32EF27A45DCD002E8536 /* LululemonTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C32EE27A45DCD002E8536 /* LululemonTestTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BE8C32F127A45DCD002E8536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 131895E327678B9C00775538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 131895EA27678B9C00775538;
+			remoteInfo = LululemonTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		131895EB27678B9C00775538 /* CoreDataLearnings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataLearnings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		014990C327ACC4C0005A219A /* addViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addViewController.swift; sourceTree = "<group>"; };
+		014990C527ACCF7F005A219A /* item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = item.swift; sourceTree = "<group>"; };
+		131895EB27678B9C00775538 /* LululemonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LululemonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		131895EE27678B9C00775538 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		131895F027678B9C00775538 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		131895F227678B9C00775538 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +44,23 @@
 		131895FA27678B9D00775538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		131895FD27678B9D00775538 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		131895FF27678B9D00775538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE8C32D827A44997002E8536 /* AddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		BE8C32DB27A44A9D002E8536 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		BE8C32DE27A4511C002E8536 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		BE8C32EC27A45DCD002E8536 /* LululemonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LululemonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C32EE27A45DCD002E8536 /* LululemonTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LululemonTestTests.swift; sourceTree = "<group>"; };
+		BE8C32F027A45DCD002E8536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		131895E827678B9C00775538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C32E927A45DCD002E8536 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +73,8 @@
 		131895E227678B9C00775538 = {
 			isa = PBXGroup;
 			children = (
-				131895ED27678B9C00775538 /* CoreDataLearnings */,
+				131895ED27678B9C00775538 /* LululemonTest */,
+				BE8C32ED27A45DCD002E8536 /* LululemonTestTests */,
 				131895EC27678B9C00775538 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,32 +82,95 @@
 		131895EC27678B9C00775538 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				131895EB27678B9C00775538 /* CoreDataLearnings.app */,
+				131895EB27678B9C00775538 /* LululemonTest.app */,
+				BE8C32EC27A45DCD002E8536 /* LululemonTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		131895ED27678B9C00775538 /* CoreDataLearnings */ = {
+		131895ED27678B9C00775538 /* LululemonTest */ = {
 			isa = PBXGroup;
 			children = (
-				131895EE27678B9C00775538 /* AppDelegate.swift */,
-				131895F027678B9C00775538 /* SceneDelegate.swift */,
-				131895F227678B9C00775538 /* ViewController.swift */,
-				131895F427678B9C00775538 /* Main.storyboard */,
+				BE8C32E627A45CDF002E8536 /* Model */,
+				BE8C32E527A45CBC002E8536 /* Storyboard */,
+				BE8C32E427A45CA2002E8536 /* AppDelegate */,
+				BE8C32E327A45C61002E8536 /* Network */,
+				BE8C32E227A45C45002E8536 /* ViewControllers */,
+				BE8C32E127A45C2A002E8536 /* ViewModels */,
 				131895FA27678B9D00775538 /* Assets.xcassets */,
-				131895FC27678B9D00775538 /* LaunchScreen.storyboard */,
 				131895FF27678B9D00775538 /* Info.plist */,
-				131895F727678B9C00775538 /* CoreDataLearnings.xcdatamodeld */,
 			);
-			path = CoreDataLearnings;
+			path = LululemonTest;
+			sourceTree = "<group>";
+		};
+		BE8C32E127A45C2A002E8536 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C32DE27A4511C002E8536 /* ListModel.swift */,
+				BE8C32D827A44997002E8536 /* AddViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BE8C32E227A45C45002E8536 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				131895F227678B9C00775538 /* ViewController.swift */,
+				014990C327ACC4C0005A219A /* addViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BE8C32E327A45C61002E8536 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C32DB27A44A9D002E8536 /* APIHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BE8C32E427A45CA2002E8536 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				131895F027678B9C00775538 /* SceneDelegate.swift */,
+				131895EE27678B9C00775538 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BE8C32E527A45CBC002E8536 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				131895FC27678B9D00775538 /* LaunchScreen.storyboard */,
+				131895F427678B9C00775538 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		BE8C32E627A45CDF002E8536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				131895F727678B9C00775538 /* LululemonTest.xcdatamodeld */,
+				014990C527ACCF7F005A219A /* item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BE8C32ED27A45DCD002E8536 /* LululemonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE8C32EE27A45DCD002E8536 /* LululemonTestTests.swift */,
+				BE8C32F027A45DCD002E8536 /* Info.plist */,
+			);
+			path = LululemonTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		131895EA27678B9C00775538 /* CoreDataLearnings */ = {
+		131895EA27678B9C00775538 /* LululemonTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1318960227678B9D00775538 /* Build configuration list for PBXNativeTarget "CoreDataLearnings" */;
+			buildConfigurationList = 1318960227678B9D00775538 /* Build configuration list for PBXNativeTarget "LululemonTest" */;
 			buildPhases = (
 				131895E727678B9C00775538 /* Sources */,
 				131895E827678B9C00775538 /* Frameworks */,
@@ -85,10 +180,28 @@
 			);
 			dependencies = (
 			);
-			name = CoreDataLearnings;
+			name = LululemonTest;
 			productName = CoreDataLearnings;
-			productReference = 131895EB27678B9C00775538 /* CoreDataLearnings.app */;
+			productReference = 131895EB27678B9C00775538 /* LululemonTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BE8C32EB27A45DCD002E8536 /* LululemonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE8C32F327A45DCD002E8536 /* Build configuration list for PBXNativeTarget "LululemonTestTests" */;
+			buildPhases = (
+				BE8C32E827A45DCD002E8536 /* Sources */,
+				BE8C32E927A45DCD002E8536 /* Frameworks */,
+				BE8C32EA27A45DCD002E8536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE8C32F227A45DCD002E8536 /* PBXTargetDependency */,
+			);
+			name = LululemonTestTests;
+			productName = LululemonTestTests;
+			productReference = BE8C32EC27A45DCD002E8536 /* LululemonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,15 +209,19 @@
 		131895E327678B9C00775538 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					131895EA27678B9C00775538 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
+					BE8C32EB27A45DCD002E8536 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 131895EA27678B9C00775538;
+					};
 				};
 			};
-			buildConfigurationList = 131895E627678B9C00775538 /* Build configuration list for PBXProject "CoreDataLearnings" */;
+			buildConfigurationList = 131895E627678B9C00775538 /* Build configuration list for PBXProject "LululemonTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +234,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				131895EA27678B9C00775538 /* CoreDataLearnings */,
+				131895EA27678B9C00775538 /* LululemonTest */,
+				BE8C32EB27A45DCD002E8536 /* LululemonTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +251,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BE8C32EA27A45DCD002E8536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,14 +265,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131895F927678B9C00775538 /* CoreDataLearnings.xcdatamodeld in Sources */,
+				BE8C32DC27A44A9D002E8536 /* APIHandler.swift in Sources */,
+				014990C627ACCF7F005A219A /* item.swift in Sources */,
+				BE8C32D927A44998002E8536 /* AddViewModel.swift in Sources */,
+				131895F927678B9C00775538 /* LululemonTest.xcdatamodeld in Sources */,
 				131895F327678B9C00775538 /* ViewController.swift in Sources */,
+				014990C427ACC4C0005A219A /* addViewController.swift in Sources */,
 				131895EF27678B9C00775538 /* AppDelegate.swift in Sources */,
 				131895F127678B9C00775538 /* SceneDelegate.swift in Sources */,
+				BE8C32DF27A4511C002E8536 /* ListModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8C32E827A45DCD002E8536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE8C32EF27A45DCD002E8536 /* LululemonTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE8C32F227A45DCD002E8536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 131895EA27678B9C00775538 /* LululemonTest */;
+			targetProxy = BE8C32F127A45DCD002E8536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		131895F427678B9C00775538 /* Main.storyboard */ = {
@@ -291,7 +437,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataLearnings/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LululemonTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,7 +456,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataLearnings/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/LululemonTest/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,10 +469,50 @@
 			};
 			name = Release;
 		};
+		BE8C32F427A45DCD002E8536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LululemonTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.LululemonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonTest.app/LululemonTest";
+			};
+			name = Debug;
+		};
+		BE8C32F527A45DCD002E8536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LululemonTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ashton.LululemonTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LululemonTest.app/LululemonTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		131895E627678B9C00775538 /* Build configuration list for PBXProject "CoreDataLearnings" */ = {
+		131895E627678B9C00775538 /* Build configuration list for PBXProject "LululemonTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1318960027678B9D00775538 /* Debug */,
@@ -333,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1318960227678B9D00775538 /* Build configuration list for PBXNativeTarget "CoreDataLearnings" */ = {
+		1318960227678B9D00775538 /* Build configuration list for PBXNativeTarget "LululemonTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1318960327678B9D00775538 /* Debug */,
@@ -342,16 +530,25 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BE8C32F327A45DCD002E8536 /* Build configuration list for PBXNativeTarget "LululemonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE8C32F427A45DCD002E8536 /* Debug */,
+				BE8C32F527A45DCD002E8536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		131895F727678B9C00775538 /* CoreDataLearnings.xcdatamodeld */ = {
+		131895F727678B9C00775538 /* LululemonTest.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				131895F827678B9C00775538 /* CoreDataLearnings.xcdatamodel */,
 			);
 			currentVersion = 131895F827678B9C00775538 /* CoreDataLearnings.xcdatamodel */;
-			path = CoreDataLearnings.xcdatamodeld;
+			path = LululemonTest.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
